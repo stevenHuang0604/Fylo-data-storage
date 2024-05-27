@@ -211,6 +211,12 @@ body {
     font-size: 56.25%;
   }
 
+  body {
+    background-image: url(./images/bg-mobile.png);
+    background-size: cover;
+    background-position: center;
+  }
+
   .data__storage-left {
     padding: 0.8rem 1.6rem;
   }
