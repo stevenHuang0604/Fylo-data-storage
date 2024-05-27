@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="data">
+        <div class="data__storage">
+          <img class="storage-logo" src="./images/logo.svg" alt="App logo" />
+          <div class="data__storage-operation">
+            <div class="data__storage-icon">
+              <img src="./images/icon-document.svg" alt="Data document" />
+            </div>
+            <div class="data__storage-icon">
+              <img src="./images/icon-folder.svg" alt="Data folder" />
+            </div>
+            <div class="data__storage-icon">
+              <img src="./images/icon-upload.svg" alt="Data upload" />
+            </div>
+          </div>
+        </div>
+
+        <div class="data__overview">
+          <p class="data__detail">You’ve used <span>815 GB</span> of your storage</p>
+
+          <div class="capacity">
+            <input type="range" min="0" max="1000" id="capacity" class="capacity-range" />
+
+            <label for="capacity" class="capacity-min">0 GB</label>
+            <label for="capacity" class="capacity-max">1000 GB</label>
+          </div>
+
+          <div class="data__storage-left"><span>185 </span>GB Left</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
